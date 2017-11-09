@@ -14,6 +14,7 @@ In python these are usually noted by the dot operator
     Out[3]: 'this is my angry string'
 ```
 ### Dunder methods
+
 ```python
 class Dunder(object):
     def __init__(self, phrase):
@@ -28,7 +29,9 @@ class Dunder(object):
     def __add__(self, other):
         return Dunder(self.phrase + other.phrase)
 ```
+
 * Special methods that aren't explicitly called by the progammer
+
 ```python
 In [1]: from classes import Dunder
 
@@ -43,12 +46,14 @@ In [4]: print(myDunder)
 ```
 
 * Usually are related to properties or the state of an object
+
 ```python
 In [5]: len(myDunder)
 Out[5]: 5
 ```
 
 * Can also dictate the manipulation of an object
+
 ```python
 In [6]: combinedDunder = myDunder + Dunder("Methods")
 
