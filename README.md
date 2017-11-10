@@ -1,5 +1,9 @@
 # Dunder Methods A.K.A Magic Methods
 
+## Dunder?
+
+Double UNDERscore
+
 ## What are dunder methods?
 
 ### What are methods?
