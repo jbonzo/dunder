@@ -61,6 +61,9 @@ In [4]: rick = ConfidentPerson('rick', 21)
 
 In [5]: rick.self_worth
 Out[5]: 25
+
+In [6]: rick.name
+Out[6]: 'ricky'
 ```
 
 # References

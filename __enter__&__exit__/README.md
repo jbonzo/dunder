@@ -58,7 +58,7 @@ class File():
 
     def __exit__(self, *args):
         self.open_file.close()
-        
+
 In [17]: new_file_object = File("README.md", "r")
 
 In [18]: with new_file_object as f:
@@ -78,3 +78,5 @@ ValueError                                Traceback (most recent call last)
 ValueError: I/O operation on closed file.
 ```
 
+* Also seen in database connections, network connections, sessions
+* Think setup -> do work -> teardown
