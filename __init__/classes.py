@@ -14,57 +14,11 @@ class Dunder(object):
     def __add__(self, other):
         return Dunder(self.phrase + other.phrase)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class ConfusedPerson(object):
     def __init__(self, name, age):
         self.name = name
         self.age = age
         self.self_worth = age % len(name)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class Person(object):
     def __init__(self, name, age):
